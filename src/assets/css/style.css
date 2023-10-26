@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.nav-right {
+    float: right;
+    margin-top: -40px;
+    padding-right: 50px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav {
+    border-bottom: 1px solid;
+    border-color: cadetblue;
+    padding-bottom: 10px;
+    margin-top: 70px;
+}
+
+.main-nav h1 ,
+.main-nav a{
+    padding-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-content-img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.main-content-img img{
+    border-radius: 150px;
+}
+
+.main-content{
+    color: cadetblue;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.main-content p{
+    text-align: center;
+    margin: 10px;
+}
+
+.fa-footer {
+    color: cadetblue;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.fa-footer-home {
+    color: cadetblue;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.missing-child,
+.calc ,
+.airplane {
+    text-align: center;
+    width: 40%;
+}
+
+.missing-child p,
+.calc p,
+.airplane p{
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
